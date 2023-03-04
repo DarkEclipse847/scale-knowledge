@@ -5,6 +5,11 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -25,8 +30,131 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <div class="wrapper">
+            <header class="header">
+                <ul class="header-list">
+                    <li class="header-item"><a href="" class="header-link">How it works</a></li>
+                    <li class="header-item"><a href="#pricing" class="header-link">Pricing</a></li>
+                    <li class="header-item"><a href="#most-team" class="header-link">Benefits</a></li>
+                </ul>
+                <button class="header-btn">Sign Up</button>
+            </header>
+        </div>
+        <main>
+            <section class="wrapper">
+                <div id="scale-knowlege">
+                    <div class="rows-layout">
+                        <img src="img/img1.svg" alt="coffee" id="scale-knowlege-img1">
+                        <img src="img/img2.svg" alt="working man" id="scale-knowlege-img2">
+                    </div>
+                    <h1 id="scale-knowlege-header">Scale knowlege</h1>
+                    <p id="scale-knowlege-text">Question Base is a new kind of knowledge base.<br>Powered by AI it answers your team’s questions<br>inside Slack. Automatically.</p>
+                    <button id="scale-knowlege-btn">Sign up</button>
+                </div>
+            </section>
+            <section>
+                <div id="growing-text-back">
+                    <div id="growing-text">“Growing fast requires fast answers."</div>
+                    <p class="sign">— Kasper, CEO Question Base</p>
+                </div>
+                <div class="rows-layout">
+                    <div id="instant-answers-pic">
+                        <img src="img/img3.svg" alt="mail" id="instant-answers-pic-img">
+                    </div>
+                    <div id="instant-answers-article">
+                        <h2>Instant answers<br>inside Slack.</h2>
+                        <p>Question Base actively monitors the<br>conversation and discretely answers<br>people when a new question is posted.</p>
+                        <div id="instant-answers-article-img">
+                            <img src="img/img4.svg" alt="girl">
+                            <p>Questions Base AI identifies when a question is posted and<br>provides an answer within 3 sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pricing">
+                    <h1>Pricing</h1>
+                    <p>Question Base is currently in beta and is free for this time<br>period. There will always be a 30 days no commitment trial and<br>we expect to announce pricing for teams of all sizes in 2023.</p>
+                </div>
+                <div id="no-tiers">
+                    <h2>“No tiers, no complexity.<br>Pay only for what you use.”</h2>
+                    <p class="sign">— Yana, CSO Question Base</p>
+                </div>
+            </section>
+            <div id="most-background">
+                <section class="wrapper">
+                    <div id="most-team">
+                        <div class="rows-layout-wc">
+                            <h1>Most team leads spend their time<br>answering the same questions<br>over and over. Not anymore.</h1>
+                            <button>
+                                <img src="img/img5.svg" alt="globe" id="most-team-icon">
+                            </button>
+                        </div>
+                        <div class="cards-layout">
+                            <div class="card">
+                                <div class="card-article">
+                                    <p class="card-number">01</p>
+                                    <h2 class="card-header">Scale up<br>knowledge</h2>
+                                    <p class="card-text">Your Slack contains a wealth of<br>knowledge. Question Base’s AI<br>uncovers and surfaces these<br>insights to your team.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-article">
+                                    <p class="card-number">02</p>
+                                    <h2 class="card-header">Reduce<br>interruptions</h2>
+                                    <p class="card-text">Let people get the answers they<br>need without interrupting the<br>work of others. Right from inside Slack.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-article">
+                                    <p class="card-number">03</p>
+                                    <h2 class="card-header">Grow<br>Organically</h2>
+                                    <p class="card-text">There’s no extra work involved.<br>Once you add Question Base to a<br>Slack channel it will automatically<br>start answering to questions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="wrapper">
+                    <div id="form">
+                        <h1>Scale<br>knowledge<br>effortlessly.</h1>
+                        <p>We are gradually rolling out Question Base to teams.<br>Leave your contacts and be the first to know.<p1>
+                        
+                        <div class="input-row">
+                            <input type="text">
+                        </div>
+                        <div class="input-row">
+                            <input type="text">
+                        </div>
+                        <div class="input-row">
+                            <input type="text">
+                        </div>
+                        <div class="rows-layout">
+                            <button id="check"></button>
+                            <p>I agree with Question Base's <a href="">Privacy Policy</a></p>
+                        </div>
+                        <button>Submit</button>
+                        <img src="img/img-back.svg" alt="pic">
+                    </div>
+                </section>
+                <div id="footer-margin"><div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div id="footer-icons">
+                <a href=""><img src="img/img-linked.svg" alt="linked-in"></a>
+                <a href=""><img src="img/img-insta.svg" alt="instagram"></a>
+            </div>
+            <div></div>
+            <div>
+                <p>© Question Base 2022 • Created in Denmark</p>
+                <ul>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
+
 
 </body>
 </html>
